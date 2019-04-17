@@ -210,7 +210,6 @@ Bundle 'Stormherz/tablify'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'vim-scripts/gtags.vim'
 Bundle 'fatih/vim-go'
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'tpope/vim-surround'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'maksimr/vim-jsbeautify'
@@ -220,6 +219,7 @@ Bundle 'maksimr/vim-jsbeautify'
 "Bundle 'snipMate'
 "Bundle 'taglist.vim'
 "Bundle 'https://github.com/kana/vim-fakeclip.git'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 " AutoClose {{{

@@ -96,3 +96,8 @@ if [ -d ~/src/dpdk ]; then
 	export RTE_TARGET=x86_64-native-linuxapp-gcc
 fi
 
+source /etc/profile
+
+export PATH=~/phabricator/arcanist/bin/:${PATH}
+alias arc='LC_ALL=C arc'
+export EDITOR=vim
